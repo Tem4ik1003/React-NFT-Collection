@@ -14,8 +14,8 @@ const NavLinks = () => {
                 <Nav.Link href="/gallery" style={navLinkStyle}>Gallery</Nav.Link>
                 <Nav.Link href="/mint" style={navLinkStyle}>Mint</Nav.Link>
                 </Nav>
-                <Nav style={{marginLeft: "40px"}}>
-                <Nav.Link href="https://twitter.com/" ><Image src={twitter} style={{maxHeight: "30px"}}></Image></Nav.Link>
+                <Nav>
+                <Nav.Link href="https://twitter.com/"><Image src={twitter} style={{maxHeight: "30px"}}></Image></Nav.Link>
                 <Nav.Link href="https://www.tiktok.com/" ><Image src={tiktok} style={{paddingLeft: "5px",maxHeight: "30px"}}></Image></Nav.Link>
                 </Nav>
             </>

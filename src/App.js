@@ -7,9 +7,6 @@ import Navigation from './components/Navigation';
 import Gallery from './components/Gallery';
 import MintPage from './components/MintPage';
 import MainSection from './components/Main-Section';
-import Section2 from './components/Section2';
-import Section3 from './components/Section3';
-import Section4 from './components/Section4';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -21,9 +18,6 @@ render = () => {
           <Navigation />
           <Route path='/' exact>
             <MainSection />
-            <Section2 />
-            <Section3 />
-            <Section4 />
           </Route>
           <Route path='/gallery' exact>
             <Gallery />

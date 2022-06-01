@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Image, Container, NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Image, Container } from 'react-bootstrap';
 import f_boi from '../img/f-boy.png';
 import NavLinks from "./NavLinks";
 
